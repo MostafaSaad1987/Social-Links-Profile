@@ -37,14 +37,15 @@ img {
     max-width: 30%;
 }
 
-h2 {
+h1 {
+    font-size: 1.5em;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     color: white;
     font-weight: 700;
 }
 
-h5 {
+h2 {
     margin-top: 0;
     margin-bottom: 0;
     color: hsl(75, 94%, 57%);
@@ -79,12 +80,4 @@ button:hover {
     color: hsl(0, 0%, 12%);
     background-color: hsl(75, 94%, 57%);
     cursor: pointer;
-}
-
-.sr-only {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
 }
