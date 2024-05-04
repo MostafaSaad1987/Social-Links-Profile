@@ -60,13 +60,13 @@ h2 {
     font-weight: 300;
 }
 
-.button-container {
+.list-container {
     display: grid;
     gap: 15px;
     width: 105%;
 }
 
-button {
+li {
     padding: 15px 20px;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -76,8 +76,22 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+li:hover {
     color: hsl(0, 0%, 12%);
     background-color: hsl(75, 94%, 57%);
     cursor: pointer;
+}
+
+li a {
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
